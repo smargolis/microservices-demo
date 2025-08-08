@@ -45,7 +45,8 @@ Find **Protocol Buffers Descriptions** at the [`./protos` directory](/protos).
 ## Quickstart (GKE)
 
 1. Ensure you have the following requirements:
-   - [Google Cloud project](https://cloud.google.com/resource-manager/docs/creating-managing-projects#creating_a_project).
+   - [Google Cloud project](https://cloud.google.com/resource-manager/docs/creating-managing-projects#creating_a_project) with billing enabled.
+   - User with the Owner basic role in the project.
    - Shell environment with `gcloud`, `git`, and `kubectl`.
 
 2. Clone the latest major version.
